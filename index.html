@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <h2>POST Create</h2>
+    <form method="POST" action="http://localhost:3000/create-user">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="temporaryPass" placeholder="Password">
+        <input type="text" name="confirmPassword" placeholder="Confirm Password">
+        <input type="submit" value="Create">
+    </form>
+
+    <h2>POST Change Password</h2>
+    <form method="POST" action="http://localhost:3000/change-password">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="password" placeholder="Password">
+        <input type="text" name="confirmPassword" placeholder="confirmPassword">
+        <input type="submit" value="Update password">
+    </form>
+
+    <h2>POST Login</h2>
+    <form method="POST" action="http://localhost:3000/login-user">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+    
+    <h2>Login Cognito</h2>
+    <form method="GET" action="http://localhost:3000/login-with-cognito">
+        <input type="submit" value="Login Cognito">
+    </form>
+    
+</body>
+
+</html>

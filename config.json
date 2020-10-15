@@ -1,0 +1,12 @@
+{
+    "cognito": {
+        "userPoolId": "",
+        "clientId": "",
+        "appClientId": "",
+        "accessKeyId":"",
+        "secretAccessKey":"",
+        "region":"",
+        "amazonCognitoDomain":"",
+        "loginRedirect":""
+    }
+}
